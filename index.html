@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="mainContainer">
+      <div class="header" id="navbar">
+        <div id="logo">
+          <img src="./images/Cookpal 1.png" />
+        </div>
+        <div id="profileDetails">
+          <h2 id="home" style="color: #509e2f">Home</h2>
+          <h2 id="explore">Explore</h2>
+          <h2 id="help">Help</h2>
+          <img src="./images/Ellipse 2.png" />
+        </div>
+      </div>
+      <div id="foodImage">
+        <div id="foodImageInfo">
+          <p id="first">Trending now</p>
+          <p id="second">Mike’s famous salad with cheese</p>
+          <p id="third">By John Mike</p>
+        </div>
+        <!-- <img src="./images/Rectangle 20.png" height="470px" /> -->
+      </div>
+      <div id="Search">
+        <h1>Search For Recipies</h1>
+        <div class="search-container">
+          <input
+            type="text"
+            placeholder="Search for recipes..."
+            class="search-input" />
+          <button class="search-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-search">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="btnDiv">
+        <button id="btn" style="background-color: #eaaa00">All Recipies</button>
+        <button id="btn" style="background-color: #c4d600">
+          Veg Recipies Only
+        </button>
+        <button id="btn" style="background-color: #dc582a">
+          Non Veg Recipies
+        </button>
+      </div>
+      <div id="mainContent">
+        <div id="sidebar">
+          <h1>Filters</h1>
+          <p id="rating">Rating</p>
+          <p id="rateData">4 and Above</p>
+          <p id="rateData">Below 4</p>
+        </div>
+        <div id="contentBar">
+          <Card></Card>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
