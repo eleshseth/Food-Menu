@@ -189,3 +189,17 @@ body {
   margin-left: 10px;
   color: #dc582a;
 }
+#footer {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+#pm {
+  color: rgb(78, 88, 88);
+  font-size: 20px;
+}
+#pmc {
+  color: rgb(78, 88, 88);
+  font-size: 20px;
+  width: 400px;
+}
