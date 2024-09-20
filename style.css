@@ -135,6 +135,7 @@ body {
   justify-content: flex-start;
 }
 #sidebar {
+  width: 450px;
   margin-left: 120px;
   margin-top: 80px;
 }
@@ -145,4 +146,40 @@ body {
 }
 #rateData {
   font-size: 20px;
+  margin-top: auto;
+}
+#contentBar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  width: auto;
+}
+#Card {
+  margin-left: 30px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+#dishDetails {
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#dishName {
+  font-weight: 600;
+  font-size: 30px;
+}
+#foodcategory {
+  margin-left: 10px;
+}
+#timeContainer {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: -50px;
+  margin-left: 10px;
+  color: #dc582a;
 }
