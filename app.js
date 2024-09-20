@@ -1,7 +1,9 @@
+// Data array
 const data = [
   {
     name: 'Veggie Delight',
-    imageSrc: 'https://source.unsplash.com/random?veggies',
+    imageSrc:
+      'https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg',
     time: '30 min',
     type: 'veg',
     isLiked: false,
@@ -9,7 +11,8 @@ const data = [
   },
   {
     name: 'Chicken Grill',
-    imageSrc: 'https://source.unsplash.com/random?chicken',
+    imageSrc:
+      'https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg',
     time: '45 min',
     type: 'non-veg',
     isLiked: false,
@@ -17,7 +20,8 @@ const data = [
   },
   {
     name: 'Cheese Pizza',
-    imageSrc: 'https://source.unsplash.com/random?pizza',
+    imageSrc:
+      'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     time: '40 min',
     type: 'veg',
     isLiked: false,
@@ -25,101 +29,112 @@ const data = [
   },
   {
     name: 'Steak',
-    imageSrc: 'https://source.unsplash.com/random?steak',
+    imageSrc:
+      'https://static01.nyt.com/images/2021/02/17/dining/17tootired-grilled-cheese/17tootired-grilled-cheese-articleLarge.jpg?quality=75&auto=webp&disable=upscale',
     time: '60 min',
     type: 'non-veg',
     isLiked: false,
     rating: 4.7,
   },
   {
-    name: 'Grilled Salmon',
-    imageSrc: 'https://source.unsplash.com/random?salmon',
-    time: '50 min',
-    type: 'non-veg',
-    isLiked: false,
-    rating: 4.6,
-  },
-  {
-    name: 'Tomato Pasta',
-    imageSrc: 'https://source.unsplash.com/random?pasta',
-    time: '35 min',
-    type: 'veg',
-    isLiked: false,
-    rating: 4.0,
-  },
-  {
-    name: 'Vegan Salad',
-    imageSrc: 'https://source.unsplash.com/random?salad',
-    time: '20 min',
-    type: 'veg',
-    isLiked: false,
-    rating: 3.9,
-  },
-  {
-    name: 'Fried Chicken',
-    imageSrc: 'https://source.unsplash.com/random?friedChicken',
-    time: '55 min',
-    type: 'non-veg',
-    isLiked: false,
-    rating: 4.3,
-  },
-  {
-    name: 'Mushroom Risotto',
-    imageSrc: 'https://source.unsplash.com/random?risotto',
-    time: '45 min',
-    type: 'veg',
-    isLiked: false,
-    rating: 4.5,
-  },
-  {
-    name: 'Burger',
-    imageSrc: 'https://source.unsplash.com/random?burger',
-    time: '30 min',
-    type: 'non-veg',
-    isLiked: false,
-    rating: 4.2,
-  },
-  {
-    name: 'Paneer Tikka',
-    imageSrc: 'https://source.unsplash.com/random?paneerTikka',
+    name: 'Cheese Pizza',
+    imageSrc:
+      'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     time: '40 min',
     type: 'veg',
     isLiked: false,
-    rating: 4.4,
+    rating: 4.1,
   },
   {
-    name: 'BBQ Ribs',
-    imageSrc: 'https://source.unsplash.com/random?ribs',
-    time: '70 min',
+    name: 'Steak',
+    imageSrc:
+      'https://static01.nyt.com/images/2021/02/17/dining/17tootired-grilled-cheese/17tootired-grilled-cheese-articleLarge.jpg?quality=75&auto=webp&disable=upscale',
+    time: '60 min',
     type: 'non-veg',
     isLiked: false,
-    rating: 4.6,
+    rating: 4.7,
   },
   {
-    name: 'Caesar Salad',
-    imageSrc: 'https://source.unsplash.com/random?caesarSalad',
-    time: '25 min',
+    name: 'Cheese Pizza',
+    imageSrc:
+      'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    time: '40 min',
     type: 'veg',
     isLiked: false,
-    rating: 3.8,
+    rating: 4.1,
   },
   {
-    name: 'Fish Tacos',
-    imageSrc: 'https://source.unsplash.com/random?fishTacos',
-    time: '35 min',
+    name: 'Steak',
+    imageSrc:
+      'https://static01.nyt.com/images/2021/02/17/dining/17tootired-grilled-cheese/17tootired-grilled-cheese-articleLarge.jpg?quality=75&auto=webp&disable=upscale',
+    time: '60 min',
     type: 'non-veg',
     isLiked: false,
-    rating: 4.3,
+    rating: 4.7,
   },
   {
-    name: 'Chocolate Cake',
-    imageSrc: 'https://source.unsplash.com/random?chocolateCake',
-    time: '90 min',
+    name: 'Cheese Pizza',
+    imageSrc:
+      'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    time: '40 min',
     type: 'veg',
     isLiked: false,
-    rating: 4.9,
+    rating: 4.1,
   },
+  {
+    name: 'Steak',
+    imageSrc:
+      'https://static01.nyt.com/images/2021/02/17/dining/17tootired-grilled-cheese/17tootired-grilled-cheese-articleLarge.jpg?quality=75&auto=webp&disable=upscale',
+    time: '60 min',
+    type: 'non-veg',
+    isLiked: false,
+    rating: 4.7,
+  },
+  {
+    name: 'Cheese Pizza',
+    imageSrc:
+      'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    time: '40 min',
+    type: 'veg',
+    isLiked: false,
+    rating: 4.1,
+  },
+  {
+    name: 'Steak',
+    imageSrc:
+      'https://static01.nyt.com/images/2021/02/17/dining/17tootired-grilled-cheese/17tootired-grilled-cheese-articleLarge.jpg?quality=75&auto=webp&disable=upscale',
+    time: '60 min',
+    type: 'non-veg',
+    isLiked: false,
+    rating: 4.7,
+  },
+  // ... Add other items from the data array
 ];
 
-const finalData = JSON.parse(data);
-console.log(finalData);
+// Function to display the cards
+const displayCards = () => {
+  const contentBar = document.getElementById('contentBar');
+
+  data.forEach((item) => {
+    // Create the card element
+    const card = document.createElement('div');
+    card.classList.add('Card');
+    card.innerHTML = `
+      <img style="border-radius: 20px" src="${item.imageSrc}" alt="${item.name}" height="240px" width="350px" />
+      <p id="foodcategory">${item.type}</p>
+      <div id="dishDetails">
+        <p id="dishName">${item.name}</p>
+        <p>⭐ ${item.rating}</p>
+      </div>
+      <div id="timeContainer">
+        <p>${item.time}</p>
+      </div>
+    `;
+
+    // Append the card to the contentBar
+    contentBar.appendChild(card);
+  });
+};
+
+// Call the function to display the cards
+displayCards();

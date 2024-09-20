@@ -150,12 +150,14 @@ body {
 }
 #contentBar {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap; /* Allows the cards to wrap to the next row */
+  justify-content: space-between; /* Ensures equal spacing between cards */
   margin-top: 70px;
-  width: auto;
+  width: 63%;
 }
-#Card {
-  margin-left: 30px;
+.Card {
+  /* Makes sure each card takes up one-third of the row, minus spacing */
+  margin: 12px; /* Adds some margin between the cards */
   background-color: white;
   padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
