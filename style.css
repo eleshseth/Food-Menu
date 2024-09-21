@@ -153,7 +153,7 @@ body {
   flex-wrap: wrap; /* Allows the cards to wrap to the next row */
   justify-content: space-between; /* Ensures equal spacing between cards */
   margin-top: 70px;
-  width: 63%;
+  width: 1200px;
 }
 .Card {
   /* Makes sure each card takes up one-third of the row, minus spacing */
